@@ -52,5 +52,48 @@ int main()
 	return 0;
 }
 */
-
+/*
 //Á·Ï°2.3
+inline bool is_size_ok(int size)
+{
+	const int max_size = 1024;
+	if (size <= 0 || size > max_size)
+	{
+		cerr << "Oops: requested size is not supported: "
+			<< size << "-- can't fullfill request.\n";
+		return false;
+	}
+	return true;
+}
+vector<int> PentagonalInit_pointer(vector<int> &a, int n)
+{
+	if (!is_size_ok(n))
+	{
+		return a;
+	}
+	for (int i = a.size()+1; i < n + 1; i++)
+	{
+		a.push_back(i*(3 * i - 1) / 2);
+	}
+	return a;
+}
+
+void display(vector<int> a)
+{
+	for (int i = 0; i < a.size(); i++)
+	{
+		cout << a[i] << endl;
+	}
+}
+
+int main()
+{
+	vector<int> a;
+	a.push_back(1);
+	a.push_back(5);
+	int n = 10;
+	a = PentagonalInit_pointer(a, n);
+	display(a);
+	return 0;
+}
+*/
