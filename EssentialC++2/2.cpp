@@ -1,7 +1,7 @@
 /*
-	C++练习题：Essential C++ 第二章
-	author：hyc
-	date：2017.4.7
+*C++练习题：Essential C++ 第二章
+*author：hyc
+*date：2017.4.7
 */
 #include<iostream>
 #include<vector>
