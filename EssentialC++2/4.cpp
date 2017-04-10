@@ -6,3 +6,15 @@
 #include<iostream>
 
 using namespace std;
+
+//Á·Ï°4.1
+class stack
+{
+public:
+	bool push(const string &);
+	bool pop();
+};
+int main()
+{
+
+}
