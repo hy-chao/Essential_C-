@@ -22,7 +22,13 @@ public:
 	{
 		return _stack.size() == 0;
 	}
+	virtual bool full()
+	{
+		return _stack.size() >= _stack.max_size;
+	}
+	virtual int peek() = 0;
 
+	void print();
 private:
 	vector<int> _stack;
 };
