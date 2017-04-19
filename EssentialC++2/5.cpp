@@ -220,7 +220,7 @@ int main()
 }
 */
 //Á·Ï°5.2
-
+/*
 class Stack
 {
 public:
@@ -346,3 +346,6 @@ int main()
 	
 	return 0;
 }
+*/
+
+
